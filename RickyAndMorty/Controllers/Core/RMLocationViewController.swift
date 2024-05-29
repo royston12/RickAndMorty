@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Controller to shoe locations
 class RMLocationViewController: UIViewController {
 
     override func viewDidLoad() {
