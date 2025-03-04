@@ -14,6 +14,19 @@ class RMCharacterVC: UIViewController {
 
         title = "Character"
         
+    // MARK: - Check API response
+//        let request = RMRequest(endpoint: .character)
+//        print(request.url)
+//        
+//        RMService.shared.execute(request: request, expecting: GetAllCharactersResponse.self) { result in
+//            switch result {
+//            case .success(let model):
+//                print(String(describing: model.info.count))
+//                print(String(describing: model.results[0].name))
+//            case .failure(let error):
+//                print(String(describing: error))
+//            }
+//        }
     }
     
 
